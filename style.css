@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: hsl(218, 28%, 13%);
+  background-image: url("./img/bg-curvy-desktop.svg");
+}
+
+.testimonial-quote {
+  display: flex;
+  position: relative;
+}
+
+.quote-jpg {
+  position: absolute;
+  z-index: -1;
+  top: 140px;
+}
+
+.input {
+  width: 1000px;
+}
+
+.input1 {
+  width: 450px;
+}
+
+.location {
+  width: 13px;
+  height: 18px;
+}
+
+.phone {
+  width: 18px;
+  height: 18px;
+}
+
+.email {
+  width: 20px;
+  height: 16px;
+  margin-top: 5px;
+}
+
+.footer {
+  position: absolute;
+  z-index: -1;
+  top: 250px;
+
+}
+
+.input-footer {
+  display: flex;
+  position: relative;
+}
+
+.input-footer1 {
+  display: flex;
+  position: relative;
+}
+
+.logo-1 {
+  margin-top: 400px;
+}
+
+.list-2 {
+  margin: bottom 20px;
+}
+
+.illustration {
+  margin-left: 200px;
+}
